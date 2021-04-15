@@ -13,7 +13,7 @@ myImage.onclick = function() {
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
-	let myNane = prompt('Who are you?');
+	let myName = prompt('Who are you?');
 	localStorage.setItem('name', myName);
 	myHeading.textContent = myName + 'I love youuu!!';
 }
