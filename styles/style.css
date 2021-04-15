@@ -20,6 +20,11 @@ img {
 	display: block;
 	margin: 0 auto;
 }
-ol, h2 {
+h2 {
 	padding: 0 20px 20px 20px;
+}
+ol {
+	font-size: 130%
+	padding: 0 20px 20px 20px;
+
 }
