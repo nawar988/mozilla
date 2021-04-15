@@ -14,14 +14,11 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
 	let myName = prompt('Who are you?');
-	localStorage.setItem('name', myName);
+	if (!myName) {
+setUserName();
+} else {
 	myHeading.textContent = myName + ' I love youuu!!';
 }
-if(!localStorage.getItem('name')) {
-	setUserName();
-} else {
-	let storedName = localStorage.getItem('name');
-	myHeading.textContent = storedName + ' I love youuu!!';
 }
 myButton.onclick = function() {
 	setUserName();
