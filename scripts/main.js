@@ -8,6 +8,6 @@ myImage.onclick = function() {
 		myImage.setAttribute('src','images/anger1');
 	}
 	else {
-		myImage.setAttribute('src','Ann2');
+		myImage.setAttribute('src','images/Ann2')
 	}
 }
