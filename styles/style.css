@@ -4,12 +4,10 @@ font-size: 150%;
 background-color: #00539F;
 }
 body {
-	box-sizing: border-box;
 width: 1280px;
 margin: 0 auto;
 background-color: #FF9500;
 border: 5px solid black;
-padding: 0 20px 20px 20px;
 }
 h1 {
 	text-align: center;
@@ -20,5 +18,8 @@ h1 {
 }
 img {
 	display: block;
-	margin: 0;
+	margin: 0 auto;
+}
+ol {
+	padding: 0 20px 20px 20px;
 }
